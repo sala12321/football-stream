@@ -1,0 +1,90 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 33% 9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .live-badge {
+    @apply bg-sports-red px-2 py-1 text-xs font-semibold rounded flex items-center gap-1;
+  }
+  .live-badge::before {
+    content: "";
+    @apply w-2 h-2 rounded-full bg-white animate-pulse-light;
+  }
+}
+
+/* Adding animation for pulse effect */
+@keyframes pulse-light {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-light {
+  animation: pulse-light 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Admin dashboard styles */
+.sports-dark {
+  background-color: #121826;
+}
+
+.sports-dark-blue {
+  background-color: #0f172a;
+}
+
+.sports-blue {
+  background-color: #2563eb;
+}
+
+.sports-red {
+  background-color: #ef4444;
+}
+
