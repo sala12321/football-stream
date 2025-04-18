@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-6 text-gray-400 text-center">
-          <p>&copy; 2025 SazTv. <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><b>Salahadin</b></a>
+          <p>&copy; 2025 SazTv. Made by <a href="https://sazluz.netlify.app" target="_blank" rel="noopener noreferrer"><b>Salahadin</b></a>
           </p>
         </div>
       </div>

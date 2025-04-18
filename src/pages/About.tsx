@@ -28,11 +28,11 @@ const About = () => {
             <h2 className="text-2xl font-semibold text-white mb-4">The Developer</h2>
             <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
               <div className="w-32 h-32 rounded-full bg-gray-800 flex items-center justify-center text-4xl text-gray-600">
-                <img src="https://sazluz.netlify.app/image/logo.jpg" alt="" />
+               SAZ
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">Saz Developer</h3>
-                <p className="text-gray-400 mb-4">Full Stack Web Developer</p>
+                <h3 className="text-xl font-semibold text-white mb-2">Salahadin Admasu</h3>
+                <p className="text-gray-400 mb-4">Web Developer</p>
                 <p className="text-gray-300">
                   As a passionate sports fan and web developer, I created SazTV to solve a problem I faced myself: 
                   finding reliable streams for sporting events. What started as a personal project has grown into 
