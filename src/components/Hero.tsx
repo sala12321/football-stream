@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
           
           <Link 
-            to="/live" 
+            to="/schedule" 
             className="bg-sports-red hover:bg-red-700 text-white font-bold py-3 px-6 rounded inline-flex items-center transition"
           >
             Watch Stream

@@ -28,7 +28,7 @@ const About = () => {
             <h2 className="text-2xl font-semibold text-white mb-4">The Developer</h2>
             <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
               <div className="w-32 h-32 rounded-full bg-gray-800 flex items-center justify-center text-4xl text-gray-600">
-                SZ
+                <img src="https://sazluz.netlify.app/image/logo.jpg" alt="" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-white mb-2">Saz Developer</h3>
